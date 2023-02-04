@@ -1,0 +1,26 @@
+en:
+  index:
+    title: "Scissory - Paper - Rock"
+    description: "Scissory Paper Rock is a zero sum game that is played by two people... or on this case, two entities! using their hands... or code... The idea is to make shapes with an outstretched hand where each shape will have a certain degree of power and will lead to an outcome."
+    select: "SELECT YOUR BET AND TRY TO BEAT OUR AI, ARNIM ZOLA"
+    throws:
+      rock: "Rock"
+      paper: "Paper"
+      scissors: "Scissors"
+      shiny_button: "Shiny Button"
+  modal:
+    title: "WAITING ARNIM ZOLA'S CHOOSE"
+    confirm: "OK"
+  controller:
+    status:
+      tie: "TIE"
+      win: "YOU WIN!"
+      stalemate: "YOU PRESSED IT?"
+      lose: "YOU LOSE!"
+    server_throw:
+      undefined: "undefined"
+    message:
+      prohibited: "Arnim Zola used a prohibited item"
+      lose: "Arnim Zola with %{action} lost"
+      win: "Arnim Zola with %{action} wins"
+      stalemate: "NO ONE WINS!"

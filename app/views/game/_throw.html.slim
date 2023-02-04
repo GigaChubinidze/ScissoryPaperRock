@@ -1,0 +1,4 @@
+#result
+	h1= @status
+	p= @message
+	= image_tag params[:sign] == "red_button" ? 'explosion.jpg' : @server_throw + ".svg"

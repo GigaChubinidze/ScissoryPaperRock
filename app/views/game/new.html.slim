@@ -1,0 +1,18 @@
+=render 'modal'
+
+.content
+	h1 =t 'index.title'
+	p.review =t 'index.description'
+	p.select =t 'index.select'
+	= button_to throw_path, remote: true, params: { sign: "rock" }, class: "myBtn", id: "rock" do
+			= image_tag "rock.svg"
+			p =t 'index.throws.rock'
+	= button_to throw_path, remote: true, params: { sign: "paper" }, class: "myBtn", id: "paper" do
+			= image_tag "paper.svg"
+			p =t 'index.throws.paper'
+	= button_to throw_path, remote: true, params: { sign: "scissors" }, class: "myBtn", id: "scissors" do
+			= image_tag "scissors.svg"
+			p =t 'index.throws.scissors'
+	= button_to throw_path, remote: true, params: { sign: "red_button" }, class: "myBtn", id: "red_button" do
+			= image_tag "red_button.png"
+			p =t 'index.throws.shiny_button'
