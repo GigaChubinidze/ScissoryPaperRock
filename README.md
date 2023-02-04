@@ -1,24 +1,12 @@
-# README
+## Getting Started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To successfully use this application, you first need to have ruby and ruby on rails installed on your machine.
+for more, follow the steps below:
 
-Things you may want to cover:
+- **`bundle install`**
+- **`rails s`**
 
-* Ruby version
+# Ready?
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Are you able to take on **Arnim Zola**?
+![Alt text](https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/09/arnim-zola-in-what-if-ultron-won.jpg)
